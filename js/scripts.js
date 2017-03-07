@@ -1,3 +1,4 @@
+//business logic
 function shuffle(array) {
   debugger;
   var currentIndex = array.length;
@@ -20,7 +21,7 @@ function shuffle(array) {
 
 
 
-
+//user interface logic
 $(document).ready(function() {
   $("form#bananaSplit").submit(function(event) {
     debugger;
