@@ -65,6 +65,10 @@ blockquote {
  background-color: #A9A9A9;
 }
 
+#replaceWell1, #getStartedExplanation, #userInput, #jumbledWell {
+  display: none;
+}
+
 .btn {
   font-size: 16px;
   border-radius: 8px;
