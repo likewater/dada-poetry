@@ -29,6 +29,9 @@ unappreciated by the vulgar herd."
   border-radius: 8px;
   color: #333333;
   background-color: #FF3B3F;
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 body {
@@ -42,7 +45,7 @@ body {
   font-size: 50px;
   text-align: center;
   color: black;
-  text-shadow: 5px 1px lightblue;
+  text-shadow: 5px 1px #CAEBF2;
   font-weight: bold;
   font-family: 'Special Elite', cursive;
 }
@@ -64,11 +67,11 @@ blockquote {
   margin: 10px;
   margin-right: auto;
   margin-left: auto;
-
 }
 
 
 #userInput {
+
 }
 
 #getStarted {
