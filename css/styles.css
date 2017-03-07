@@ -35,7 +35,7 @@ blockquote {
 }
 
 #getStartedExplaination {
-
+  text-align: center;
 }
 
 #userInput {
@@ -46,8 +46,8 @@ blockquote {
 
 }
 
-#clearButton {
-
+#clear {
+  margin-left: 20px;
 }
 
 #userText {
@@ -62,14 +62,15 @@ blockquote {
 }
 
 #pageFooter {
-
+ background-color: #A9A9A9;
 }
 
 .btn {
   font-size: 16px;
   border-radius: 8px;
   color: #333333;
-  background-color: #FF3B3F;
+  background-color: #A9A9A9;
+  border-color: #FF3B3F;
   font-family: 'Special Elite', cursive;
   font-weight: bold;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
