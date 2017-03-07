@@ -1,0 +1,73 @@
+
+
+/* NOTE: Tristan Tzaras description of how to make a dada poem (SHOULD BE PUT IN BLOCKQUOTE)
+
+"To Make A Dadist Poem
+
+Take a newspaper.
+Take some scissors.
+Choose from this paper an article the length you want to make your poem.
+Cut out the article.
+Next carefully cut out each of the words that make up this article and put them all in a bag.
+Shake gently.
+Next take out each cutting one after the other.
+Copy conscientiously in the order in which they left the bag.
+The poem will resemble you.
+And there you are--an infinitely original author of charming sensibility, even though
+unappreciated by the vulgar herd."
+
+- Tristan Tzara */
+
+/* NOTE: Header setup idea - background with dada newspaper word cutouts scattered...*/
+
+/*NOTE: Font style idea- Newspaper font? Something creative/kind of wild. Tzara was very non-conformist.*/
+
+
+
+.btn {
+  font-size: 24px;
+  border-radius: 8px;
+  color: #333333;
+  background-color: #FF3B3F;
+}
+
+body {
+  margin: 20px;
+  background-color: #EFEFEF;
+}
+
+.jumbotron {
+  margin-bottom: 5px;
+  background-image: url("dada4.jpg");
+
+}
+
+.container {
+  margin-bottom: 5px;
+}
+
+blockquote {
+  background-color: #CAEBF2;
+}
+
+.well {
+  background-color: #3C3C3C;
+}
+
+#userText {
+
+}
+
+
+#userInput {
+
+}
+
+#getStarted {
+
+}
+
+
+/*NOTE: Another Tzara quote:
+"We want to make men realize afresh that the one unique fraternity exists in the moment of intensity when the beautiful and life itself are concentrated on the height of a wire rising toward a burst of light, a blue trembling linked to the earth by our magnetic gazes covering the peaks with snow. The miracle. I open my heart to creation.”
+― Tristan Tzara*/
