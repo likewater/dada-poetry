@@ -1,11 +1,11 @@
 # _Dada Poetry_
 
-#### _Intro to Programming Team Week Project for Epicodus - Week Five: March 2017_
+#### _Epicodus Intro to Programming, Team Week Project - Week Five: March 2017_
 
-#### By _** **_
+#### By _**Blake Womack (likewater), Grace Stuart (gstuart), Colin Bloom (colinjb), Christian Martinez (christiangmartinez), and Ben Schenkenberger (BenJammen1986)**_
 
 ## Description
-A webpage (using HTML, CSS, Bootstrap, JavaScript, and jQuery) that takes the text that is entered, rearranges the text in a random order, and displays them as a form of poetry.
+A webpage (using HTML, CSS, Bootstrap, JavaScript, and jQuery) that takes the text that is entered, rearranges the text in a random order, and displays them as poetry.
 
 ## Setup/Installation Requirements
 1. Clone this repository onto your desktop. This will place the all files and folders in onto your computer.
@@ -15,7 +15,7 @@ A webpage (using HTML, CSS, Bootstrap, JavaScript, and jQuery) that takes the te
 ## Know Bugs
 No known bugs.
 
-## Technology Used To Create Portfolio
+## Technology Used To Create Project
 * HTML
 * CSS
 * Bootstrap
@@ -30,4 +30,4 @@ No known bugs.
 
 ## License
 *GPL*
-Copyright (c) 2017 **_ _**
+Copyright (c) 2017 **_Blake Womack, Grace Stuart, Colin Bloom, Christian Martinez, and Ben Schenkenberger_**
