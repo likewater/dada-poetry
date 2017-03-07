@@ -26,7 +26,7 @@ $(document).ready(function() {
   $("form#bananaSplit").submit(function(event) {
     debugger;
     event.preventDefault();
-    var input = ("banana1");
+    var input = ("#banana1");
     var inputArray = input.split(" ");
     var result = shuffle(inputArray);
     console.log(result);
