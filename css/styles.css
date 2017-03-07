@@ -39,12 +39,12 @@ body {
 .jumbotron {
   margin-bottom: 20px;
   background-image: url(../img/dada4.jpg);
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
   color: black;
-  text-shadow: 5px 5px red;
+  text-shadow: 5px 1px lightblue;
   font-weight: bold;
-  font-family: 'Diplomata SC', cursive;
+  font-family: 'Special Elite', cursive;
 }
 
 .container {
@@ -60,12 +60,15 @@ blockquote {
 }
 
 #userText {
+  min-height: 300px;
+  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
 
 }
 
 
 #userInput {
-
 }
 
 #getStarted {
