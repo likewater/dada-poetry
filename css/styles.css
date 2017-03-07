@@ -25,7 +25,7 @@ unappreciated by the vulgar herd."
 
 
 .btn {
-  font-size: 24px;
+  font-size: 16px;
   border-radius: 8px;
   color: #333333;
   background-color: #FF3B3F;
@@ -33,13 +33,17 @@ unappreciated by the vulgar herd."
 
 body {
   margin: 20px;
-  background-color: #EFEFEF;
+  background-color: #3C3C3C;
 }
 
 .jumbotron {
-  margin-bottom: 5px;
-  background-image: url("dada4.jpg");
-
+  margin-bottom: 20px;
+  background-image: url(../img/dada4.jpg);
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  text-shadow: 5px;
+  font-weight: bold;
 }
 
 .container {
@@ -51,7 +55,7 @@ blockquote {
 }
 
 .well {
-  background-color: #3C3C3C;
+  background-color: #EFEFEF;
 }
 
 #userText {
