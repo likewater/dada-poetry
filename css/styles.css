@@ -28,15 +28,18 @@ unappreciated by the vulgar herd."
   font-size: 24px;
   border-radius: 8px;
   color: #333333;
-  background-color: #CAEBF2;
+  background-color: #FF3B3F;
 }
 
 body {
   margin: 20px;
+  background-color: #EFEFEF;
 }
 
-jumbotron {
+.jumbotron {
   margin-bottom: 5px;
+  background-image: url("dada4.jpg");
+
 }
 
 .container {
@@ -44,10 +47,25 @@ jumbotron {
 }
 
 blockquote {
-  background-color:
+  background-color: #CAEBF2;
+}
+
+.well {
+  background-color: #3C3C3C;
+}
+
+#userText {
+
 }
 
 
+#userInput {
+
+}
+
+#getStarted {
+
+}
 
 
 /*NOTE: Another Tzara quote:
