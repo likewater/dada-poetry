@@ -8,11 +8,11 @@ function shuffle(array) {
   while (0 !== currentIndex) {
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex -= 1;
-    temporaryValue = array[currentIndex]);
+    temporaryValue = array[currentIndex];
     array[currentIndex] = array[randomIndex];
     array[randomIndex] = temporaryValue;
   }
-  return array;
+  return array.join(" ");
 }
 
 
@@ -23,15 +23,12 @@ function shuffle(array) {
 
 //user interface logic
 $(document).ready(function() {
-  $("form#bananaSplit").submit(function(event) {
+  $("#jumble").click(function(event) {
     debugger;
     event.preventDefault();
-    var input = ("#banana1");
-    var inputArray = input.split(" ");
-    var result = shuffle(inputArray);
+    var input = ("#userText");
+    var wordArray = input.split(" ");
+    var wordResult = shuffle(wordArray);
     console.log(result);
-    // var input = $("input#banana1").val();
-    // var inputArray = input.split(" ");
-    // var result = inputArray.shuffle();
   });
 });
