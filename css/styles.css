@@ -78,6 +78,10 @@ blockquote {
 
 }
 
+#replaceWell1, #getStartedExplanation, #userInput, #jumbledWell {
+  display: none;
+}
+
 
 /*NOTE: Another Tzara quote:
 "We want to make men realize afresh that the one unique fraternity exists in the moment of intensity when the beautiful and life itself are concentrated on the height of a wire rising toward a burst of light, a blue trembling linked to the earth by our magnetic gazes covering the peaks with snow. The miracle. I open my heart to creation.”
