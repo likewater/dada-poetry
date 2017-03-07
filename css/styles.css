@@ -39,11 +39,12 @@ body {
 .jumbotron {
   margin-bottom: 20px;
   background-image: url(../img/dada4.jpg);
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   color: black;
-  text-shadow: 5px;
+  text-shadow: 5px 5px red;
   font-weight: bold;
+  font-family: 'Diplomata SC', cursive;
 }
 
 .container {
