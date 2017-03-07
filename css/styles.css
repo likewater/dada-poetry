@@ -46,8 +46,8 @@ blockquote {
 
 }
 
-#clearButton {
-
+#clear {
+  margin-left: 20px;
 }
 
 #userText {
