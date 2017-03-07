@@ -1,17 +1,10 @@
-
-.btn {
-  font-size: 16px;
-  border-radius: 8px;
-  color: #333333;
-  background-color: #FF3B3F;
-  font-family: 'Special Elite', cursive;
-  font-weight: bold;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
 body {
   margin: 20px;
   background-color: #3C3C3C;
+}
+
+.container {
+  margin-bottom: 5px;
 }
 
 .jumbotron {
@@ -25,16 +18,36 @@ body {
   font-family: 'Special Elite', cursive;
 }
 
-.container {
-  margin-bottom: 5px;
+.well {
+  background-color: #EFEFEF;
 }
 
 blockquote {
   background-color: #CAEBF2;
 }
 
-.well {
-  background-color: #EFEFEF;
+#getStartedRow {
+
+}
+
+#getStartedButton {
+
+}
+
+#getStartedExplaination {
+
+}
+
+#userInput {
+
+}
+
+#jumbleButton {
+
+}
+
+#clearButton {
+
 }
 
 #userText {
@@ -44,11 +57,20 @@ blockquote {
   margin-left: auto;
 }
 
-
-#userInput {
+.footer {
 
 }
 
-#getStarted {
+#pageFooter {
 
+}
+
+.btn {
+  font-size: 16px;
+  border-radius: 8px;
+  color: #333333;
+  background-color: #FF3B3F;
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
