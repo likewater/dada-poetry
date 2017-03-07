@@ -1,42 +1,10 @@
-
-
-/* NOTE: Tristan Tzaras description of how to make a dada poem (SHOULD BE PUT IN BLOCKQUOTE)
-
-"To Make A Dadist Poem
-
-Take a newspaper.
-Take some scissors.
-Choose from this paper an article the length you want to make your poem.
-Cut out the article.
-Next carefully cut out each of the words that make up this article and put them all in a bag.
-Shake gently.
-Next take out each cutting one after the other.
-Copy conscientiously in the order in which they left the bag.
-The poem will resemble you.
-And there you are--an infinitely original author of charming sensibility, even though
-unappreciated by the vulgar herd."
-
-- Tristan Tzara */
-
-/* NOTE: Header setup idea - background with dada newspaper word cutouts scattered...*/
-
-/*NOTE: Font style idea- Newspaper font? Something creative/kind of wild. Tzara was very non-conformist.*/
-
-
-
-.btn {
-  font-size: 16px;
-  border-radius: 8px;
-  color: #333333;
-  background-color: #FF3B3F;
-  font-family: 'Special Elite', cursive;
-  font-weight: bold;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
 body {
   margin: 20px;
   background-color: #3C3C3C;
+}
+
+.container {
+  margin-bottom: 5px;
 }
 
 .jumbotron {
@@ -50,16 +18,36 @@ body {
   font-family: 'Special Elite', cursive;
 }
 
-.container {
-  margin-bottom: 5px;
+.well {
+  background-color: #EFEFEF;
 }
 
 blockquote {
   background-color: #CAEBF2;
 }
 
-.well {
-  background-color: #EFEFEF;
+#getStartedRow {
+
+}
+
+#getStartedButton {
+
+}
+
+#getStartedExplaination {
+  text-align: center;
+}
+
+#userInput {
+
+}
+
+#jumbleButton {
+
+}
+
+#clear {
+  margin-left: 20px;
 }
 
 #userText {
@@ -69,20 +57,25 @@ blockquote {
   margin-left: auto;
 }
 
-
-#userInput {
+.footer {
 
 }
 
-#getStarted {
-
+#pageFooter {
+ background-color: #A9A9A9;
 }
 
 #replaceWell1, #getStartedExplanation, #userInput, #jumbledWell {
   display: none;
 }
 
-
-/*NOTE: Another Tzara quote:
-"We want to make men realize afresh that the one unique fraternity exists in the moment of intensity when the beautiful and life itself are concentrated on the height of a wire rising toward a burst of light, a blue trembling linked to the earth by our magnetic gazes covering the peaks with snow. The miracle. I open my heart to creation.”
-― Tristan Tzara*/
+.btn {
+  font-size: 16px;
+  border-radius: 8px;
+  color: #333333;
+  background-color: #A9A9A9;
+  border-color: #FF3B3F;
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
