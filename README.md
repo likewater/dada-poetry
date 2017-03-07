@@ -25,7 +25,11 @@ No known bugs.
 ## Specifications
 |Behaviors|Input|Output|
 |:-----------:|:-------:|:--------:|
-|||||
+|The application stores a sentence as a string.|The dog ran down the street.|"The dog ran down the street"|
+|The application splits a string and stores it as an array.|"The dog ran down the street"|["The", "dog", "ran", "down", "the", "street"]|
+|The application randomizes the array|["The", "dog", "ran", "down", "the", "street"]|["dog", "The",  "street", "ran",  "the", "down"]|
+|The application joins the randomized array into a string|["dog", "The",  "street", "ran",  "the", "down"]|"dog The street ran the down"|
+|The application returns the random string.|"dog The street ran the down"|dog The street ran the down|
 
 
 ## License
