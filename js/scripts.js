@@ -33,11 +33,13 @@ $(document).ready(function() {
     var instructions = $("#paragraph").html();
     var instructArray = instructions.split(" ");
     var newInstructArray = [];
-    debugger;
+    //debugger;
     console.log(instructions);
     console.log(instructArray);
+
     instructArray.forEach(function(i) {
-        if (i !== "<br>") {
+          debugger;
+        if (i != "<br>↵") {
           newInstructArray.push(i)
         }
       });
