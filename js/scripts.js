@@ -28,22 +28,20 @@ $(document).ready(function() {
     var titleArray = title1.split(" ");
     var jumbledTitle = shuffle(titleArray);
     $(".jumbledTitle").text(jumbledTitle);
-    //debugger;
+
 
     var instructions = $("#paragraph").html();
     var instructArray = instructions.split(" ");
     var newInstructArray = [];
-    //debugger;
     console.log(instructions);
     console.log(instructArray);
 
     instructArray.forEach(function(i) {
-      //BUG!!!
-        if (i != "<br>↵") {
-          newInstructArray.push(i)
+      if (i != "<br>↵") {
+        newInstructArray.push(i)
         }
       });
-    //console.log(newInstructArray);
+
 
     var jumbledInstruct = shuffle(newInstructArray);
     $("#jumbledInstruct").text(jumbledInstruct);
