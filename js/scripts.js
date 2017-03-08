@@ -47,6 +47,6 @@ $(document).ready(function() {
   });
 
   $("#clearButton").click(function() {
-    $("#userText").empty();
+    document.getElementById("userText").value = "";
   });
 });
