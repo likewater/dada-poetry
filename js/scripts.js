@@ -16,7 +16,8 @@ function cutUp(string, splitType) {
     array = string.split(" ");
   }
 }
-
+debugger;
+console.log(cutUp("This is a string! Its not. But it is?", "sentence"));
 function shuffle(array) {
   var currentIndex = array.length;
   var temporaryValue;
@@ -41,38 +42,30 @@ $(document).ready(function() {
     $("#replaceWell1").show();
     $("#getStartedExplanation").show();
     $("#userInput").show();
-debugger;
+
     var title1 = ("To Make A Dadist Poem");
     var titleArray = title1.split(" ");
     var jumbledTitle = shuffle(titleArray);
     $(".jumbledTitle").text(jumbledTitle);
-    console.log(cutUp("This is a test. Or is it? It is!", "sentence"));
-    //debugger;
 
+    //this jumbles intro paragraph
     var instructions = $("#paragraph").html();
     var instructArray = instructions.split(" ");
-    var newInstructArray = [];
-    //debugger;
     console.log(instructions);
     console.log(instructArray);
-
-    instructArray.forEach(function(i) {
-      //BUG!!!
-        if (i != "<br>↵") {
-          newInstructArray.push(i)
-        }
-      });
-    //console.log(newInstructArray);
-
-    var jumbledInstruct = shuffle(newInstructArray);
+    var jumbledInstruct = shuffle(instructArray);
     $("#jumbledInstruct").text(jumbledInstruct);
   });
 
-  $("#jumble").click(function(event) {
-    //debugger;
+  $("#jumbleButton").click(function() {
     var input = $("#userText").val();
     var wordArray = input.split(" ");
     var wordResult = shuffle(wordArray);
-    console.log(wordResult);
+    $("#jumbleResult").text(wordResult);
+    $("#jumbledWell").show();
+  });
+
+  $("#clearButton").click(function() {
+    document.getElementById("userText").value = "";
   });
 });
