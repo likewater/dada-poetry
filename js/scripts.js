@@ -2,22 +2,19 @@
 function cutUp(string, splitType) {
   var array = [];
   var newString = string;
-  debugger;
   if (splitType === "sentence") {
     for (var i = 0; i < string.length; i++) {
       var index = string.charAt(i)
-      console.log(index);
       if (string.charAt(i) === "." || string.charAt(i) === "!" || string.charAt(i) === "?" || string.charAt(i) === "..." || string.charAt(i) === ":") {
           var newString = newString.replace(index, index + "|");
       }
     }
-    array = newString.split("|");
+    return array = newString.split("|");
   } else if (splitType === "word") {
-    array = string.split(" ");
+    return array = string.split(" ");
   }
 }
-debugger;
-console.log(cutUp("This is a string! Its not. But it is?", "sentence"));
+
 function shuffle(array) {
   var currentIndex = array.length;
   var temporaryValue;
@@ -32,7 +29,6 @@ function shuffle(array) {
   }
   return array.join(" ");
 }
-
 
 //user interface logic
 $(document).ready(function() {
@@ -51,18 +47,20 @@ $(document).ready(function() {
     //this jumbles intro paragraph
     var instructions = $("#paragraph").html();
     var instructArray = instructions.split(" ");
-    console.log(instructions);
-    console.log(instructArray);
     var jumbledInstruct = shuffle(instructArray);
     $("#jumbledInstruct").text(jumbledInstruct);
   });
 
   $("#jumbleButton").click(function() {
     var input = $("#userText").val();
-    var wordArray = input.split(" ");
-    var wordResult = shuffle(wordArray);
-    $("#jumbleResult").text(wordResult);
+    var type = $("#type").val();
+
+    var newArray = cutUp(input, type);
+    var newestString = shuffle(newArray);
+
+    $("#jumbleResult").text(newestString);
     $("#jumbledWell").show();
+    $("#replaceWell1").hide();
   });
 
   $("#clearButton").click(function() {
