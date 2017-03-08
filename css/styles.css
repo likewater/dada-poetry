@@ -64,6 +64,10 @@ blockquote {
 
 #pageFooter {
  background-color: #A9A9A9;
+ padding-left: 25px;
+ padding-top: 10px;
+ padding-right: 25px;
+ padding-bottom: 5px;
 }
 
 #replaceWell1, #getStartedExplanation, #userInput, #jumbledWell {
