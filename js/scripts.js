@@ -34,11 +34,12 @@ function shuffle(array) {
 $(document).ready(function() {
 
   $("#getStartedButton").click(function() {
-    $("#instruct").hide();
-    $("#replaceWell1").show();
+
+    $("#instruct").fadeOut();
+    $("#replaceWell1").delay(400).fadeIn();
     $("#getStartedExplanation").show();
     $("#userInput").show();
-
+    $("#jumbledInstruct").fadeIn();
     var title1 = ("To Make A Dadist Poem");
     var titleArray = title1.split(" ");
     var jumbledTitle = shuffle(titleArray);
@@ -48,7 +49,12 @@ $(document).ready(function() {
     var instructions = $("#paragraph").html();
     var instructArray = instructions.split(" ");
     var jumbledInstruct = shuffle(instructArray);
-    $("#jumbledInstruct").text(jumbledInstruct);
+
+    var spans = '<span>' + jumbledInstruct.split(/\s+/).join(' </span><span>') + '</span>';
+
+    $(spans).hide().appendTo("#jumbledInstruct").each(function(i) {
+        $(this).delay(75 * i).fadeIn();
+    });
   });
 
   $("#jumbleButton").click(function() {
@@ -59,8 +65,8 @@ $(document).ready(function() {
     var newestString = shuffle(newArray);
 
     $("#jumbleResult").text(newestString);
-    $("#jumbledWell").show();
-    $("#replaceWell1").hide();
+    $("#replaceWell1").fadeOut();
+    $("#jumbledWell").delay(400).fadeIn();
   });
 
   $("#clearButton").click(function() {
