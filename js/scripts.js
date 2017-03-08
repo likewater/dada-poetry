@@ -29,29 +29,24 @@ $(document).ready(function() {
     var jumbledTitle = shuffle(titleArray);
     $(".jumbledTitle").text(jumbledTitle);
 
-
+    //this jumbles intro paragraph
     var instructions = $("#paragraph").html();
     var instructArray = instructions.split(" ");
-    var newInstructArray = [];
     console.log(instructions);
     console.log(instructArray);
-
-    instructArray.forEach(function(i) {
-      if (i != "<br>↵") {
-        newInstructArray.push(i)
-        }
-      });
-
-
-    var jumbledInstruct = shuffle(newInstructArray);
+    var jumbledInstruct = shuffle(instructArray);
     $("#jumbledInstruct").text(jumbledInstruct);
   });
 
-  $("#jumble").click(function(event) {
-    //debugger;
+  $("#jumbleButton").click(function() {
     var input = $("#userText").val();
     var wordArray = input.split(" ");
     var wordResult = shuffle(wordArray);
-    console.log(wordResult);
+    $("#jumbleResult").text(wordResult);
+    $("#jumbledWell").show();
+  });
+
+  $("#clearButton").click(function() {
+    $("#userText").empty();
   });
 });
