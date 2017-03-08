@@ -39,6 +39,7 @@ $(document).ready(function() {
   });
 
   $("#jumbleButton").click(function() {
+    $("#replaceWell1").hide();
     var input = $("#userText").val();
     var wordArray = input.split(" ");
     var wordResult = shuffle(wordArray);
