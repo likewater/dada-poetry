@@ -15,11 +15,6 @@ function shuffle(array) {
 }
 
 
-
-
-
-
-
 //user interface logic
 $(document).ready(function() {
 
@@ -31,15 +26,31 @@ $(document).ready(function() {
 
     var title1 = ("To Make A Dadist Poem");
     var titleArray = title1.split(" ");
-    var jumbledArray = shuffle(titleArray);
-    $(".jumbledTitle").text(jumbledArray);
+    var jumbledTitle = shuffle(titleArray);
+    $(".jumbledTitle").text(jumbledTitle);
+    //debugger;
 
-    var instructions = document.getElementById("paragraph").select();
+    var instructions = $("#paragraph").html();
+    var instructArray = instructions.split(" ");
+    var newInstructArray = [];
+    //debugger;
     console.log(instructions);
+    console.log(instructArray);
+
+    instructArray.forEach(function(i) {
+          debugger;
+        if (i != "<br>↵") {
+          newInstructArray.push(i)
+        }
+      });
+    console.log(newInstructArray);
+
+    var jumbledInstruct = shuffle(newInstructArray);
+    $("#jumbledInstruct").text(jumbledInstruct);
   });
 
   $("#jumble").click(function(event) {
-    debugger;
+    //debugger;
     var input = $("#userText").val();
     var wordArray = input.split(" ");
     var wordResult = shuffle(wordArray);
