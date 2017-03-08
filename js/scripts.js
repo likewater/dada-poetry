@@ -38,12 +38,12 @@ $(document).ready(function() {
     console.log(instructArray);
 
     instructArray.forEach(function(i) {
-          debugger;
+      //BUG!!!
         if (i != "<br>↵") {
           newInstructArray.push(i)
         }
       });
-    console.log(newInstructArray);
+    //console.log(newInstructArray);
 
     var jumbledInstruct = shuffle(newInstructArray);
     $("#jumbledInstruct").text(jumbledInstruct);
