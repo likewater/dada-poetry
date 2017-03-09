@@ -29,7 +29,7 @@ No known bugs.
 | Application will return words given by user | some words | some words |
 | Application will return words in random order | These are some words to shuffle | shuffle are These to words some |
 | Application will return words in random order with punctuation attached to word it was originally attached to | Hello! This is a web page. Do you like it? | it? Hello! web a Do This like you page. is |
-| Application will separate user input by sentence | Hello! This is a web page. Do you like it? | Hello!, This is a web page., Do you like it? |
+| Application will separate user input by sentence | Hello! This is a web page. Do you like it? | "Hello!" "This is a web page."  "Do you like it?" |
 | Application will return sentences in random order | Hello! This is a web page. Do you like it? | This is a web page. Do you like it? Hello! |
 
 ## License
