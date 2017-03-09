@@ -1,6 +1,6 @@
 body {
   margin: 20px;
-  background-color: #3C3C3C;
+  background-image: url(http://www.simplefolkradio.com/images/menu%20bars%20and%20buttons/Old_Grunger_Paper_Texture_03_by_fudgegraphicsV2%20copy.jpg);
 }
 
 .container {
@@ -13,14 +13,17 @@ body {
   font-size: 50px;
   text-align: center;
   color: black;
-  text-shadow: 5px 1px #CAEBF2;
   font-weight: bold;
   font-family: 'Special Elite', cursive;
+  filter: sepia(50%);
+  text-shadow: 5px 5px white;
 }
 
 .well {
   background-color: #EFEFEF;
+
 }
+
 p {
   font-family: 'Special Elite',cursive;
 }
@@ -34,6 +37,14 @@ PRE {
 
 blockquote  {
   background-color: #CAEBF2;
+}
+
+h1 {
+  font-variant: small-caps;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-shadow: 2px 2px white;
+  font-size: 26px;
 }
 
 #jumbleResult {
@@ -51,7 +62,7 @@ blockquote  {
 
 #getStartedExplaination {
   text-align: center;
-  color: #FF3B3F;
+  color: rgba(128, 0, 0, .7);
 }
 
 #userInput {
@@ -93,8 +104,8 @@ blockquote  {
   font-size: 16px;
   border-radius: 8px;
   color: #333333;
-  background-color: #A9A9A9;
-  border-color: #FF3B3F;
+  background-color: rgba(255, 239, 204, .5);
+  border: 2px solid rgba(128, 0, 0, .7);
   font-family: 'Special Elite', cursive;
   font-weight: bold;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -102,9 +113,8 @@ blockquote  {
 
 #jumbledInstruct {
   display: none;
-
+}
 
 .form-control {
   margin-top: 10px;
-
 }
