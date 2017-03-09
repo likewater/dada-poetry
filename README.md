@@ -25,12 +25,12 @@ No known bugs.
 ## Specifications
 |Behaviors|Input|Output|
 |:-----------:|:-------:|:--------:|
-|The application stores a sentence as a string.|The dog ran down the street.|"The dog ran down the street"|
-|The application splits a string and stores it as an array.|"The dog ran down the street"|["The", "dog", "ran", "down", "the", "street"]|
-|The application randomizes the array|["The", "dog", "ran", "down", "the", "street"]|["dog", "The",  "street", "ran",  "the", "down"]|
-|The application joins the randomized array into a string|["dog", "The",  "street", "ran",  "the", "down"]|"dog The street ran the down"|
-|The application returns the random string.|"dog The street ran the down"|dog The street ran the down|
-
+| Application will store words given by user | some | some |
+| Application will return words given by user | some words | some words |
+| Application will return words in random order | These are some words to shuffle | shuffle are These to words some |
+| Application will return words in random order with punctuation attached to word it was originally attached to | Hello! This is a web page. Do you like it? | it? Hello! web a Do This like you page. is |
+| Application will separate user input by sentence | Hello! This is a web page. Do you like it? | "Hello!" "This is a web page."  "Do you like it?" |
+| Application will return sentences in random order | Hello! This is a web page. Do you like it? | This is a web page. Do you like it? Hello! |
 
 ## License
 *GPL*
