@@ -25,12 +25,9 @@ No known bugs.
 ## Specifications
 |Behaviors|Input|Output|
 |:-----------:|:-------:|:--------:|
-|The application stores a sentence as a string.|The dog ran down the street.|"The dog ran down the street"|
-|The application splits a string and stores it as an array.|"The dog ran down the street"|["The", "dog", "ran", "down", "the", "street"]|
-|The application randomizes the array|["The", "dog", "ran", "down", "the", "street"]|["dog", "The",  "street", "ran",  "the", "down"]|
-|The application joins the randomized array into a string|["dog", "The",  "street", "ran",  "the", "down"]|"dog The street ran the down"|
-|The application returns the random string.|"dog The street ran the down"|dog The street ran the down|
-
+| Web page will return words in random order | some words | words some |
+| Page will return multiple words in random order | These are some words to shuffle | shuffle are These to words some |
+| Page will return sentences in random order | Hello! This is a web page. Do you like it? | This is a web page. Do you like it? Hello! |
 
 ## License
 *GPL*
