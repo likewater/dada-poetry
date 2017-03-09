@@ -118,3 +118,7 @@ h1 {
 .form-control {
   margin-top: 10px;
 }
+
+#congrats {
+  display: none;
+}
