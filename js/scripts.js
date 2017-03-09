@@ -37,8 +37,9 @@ $(document).ready(function() {
 
     $("#instruct").fadeOut();
     $("#replaceWell1").delay(400).fadeIn();
+    $("#congrats").delay(6500).fadeIn();
     $("#getStartedExplanation").show();
-    $("#userInput").show();
+    $("#userInput").fadeIn();
     $("#jumbledInstruct").fadeIn();
     var title1 = ("To Make A Dadist Poem");
     var titleArray = title1.split(" ");
