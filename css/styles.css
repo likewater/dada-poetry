@@ -52,21 +52,9 @@ h1 {
   font-size: 18px;
 }
 
-#getStartedRow {
-
-}
-
-#getStartedButton {
-
-}
-
 #getStartedExplaination {
   text-align: center;
   color: rgba(128, 0, 0, .7);
-}
-
-#userInput {
-
 }
 
 #jumbleButton {
@@ -82,10 +70,6 @@ h1 {
   margin: 10px;
   margin-right: auto;
   margin-left: auto;
-}
-
-.footer {
-
 }
 
 #pageFooter {
